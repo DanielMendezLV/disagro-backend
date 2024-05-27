@@ -1,0 +1,42 @@
+{
+    "name": "service_auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier ./**/**.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc --write"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-jest": "^26.4.6",
+        "eslint-plugin-mocha": "^10.0.5",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "2.6.2",
+        "supertest": "^6.2.3"
+    },
+    "dependencies": {
+        "@types/jest": "^28.1.2",
+        "cors": "^2.8.5",
+        "crypto-js": "^4.1.1",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "express-validator": "^6.14.1",
+        "express-winston": "^4.2.0",
+        "helmet": "^5.1.0",
+        "http": "0.0.1-security",
+        "jest": "^28.1.1",
+        "joi": "^17.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "morgan": "^1.10.0",
+        "mysql2": "^2.3.3",
+        "ramda": "^0.28.0",
+        "winston": "^3.7.2"
+    }
+}

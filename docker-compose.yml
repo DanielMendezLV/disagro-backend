@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  disagrooperations:
+    image: xcoubert/testdev:latest
+    container_name: c-proyecto-events
+    build:
+      dockerfile: Dockerfile
+      context: ./service_operations/service_register/
+    ports:
+      - "4050:4050"

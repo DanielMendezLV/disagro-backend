@@ -1,0 +1,32 @@
+{
+    "name": "disagro-backend",
+    "version": "1.0.0",
+    "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+    "main": "app.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier ./**/**.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "jest": "^28.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-jest": "^26.4.6",
+        "eslint-plugin-mocha": "^10.0.5",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "2.6.2"
+    }
+}

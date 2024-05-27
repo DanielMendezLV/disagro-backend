@@ -1,0 +1,8 @@
+node_modules
+
+# Pruebas Unitarias
+.nyc_output
+coverage
+*.logs
+/logs
+
